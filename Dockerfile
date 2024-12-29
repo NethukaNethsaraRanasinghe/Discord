@@ -11,4 +11,4 @@ COPY . .
 
 EXPOSE 8002
 
-CMD ["python", "Discord.py"]
+CMD ["python3", "Discord.py"]
