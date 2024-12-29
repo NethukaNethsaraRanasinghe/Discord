@@ -7,8 +7,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+COPY . /app
 
 EXPOSE 8002
 
-CMD ["python3", "Discord.py"]
+CMD ["python", "Discord.py"]
